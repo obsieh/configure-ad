@@ -22,18 +22,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1:Install Active Directory Domain Services (AD DS)
+- Step 2: Promote the Server to a Domain Controller
+- Step 3:Configure Organizational Units (OUs)
+- Step 4: Add Users, Groups, and Computers
+- step 5: Apply Group Policies
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 1: Install and Configure Active Directory
+
+![image](https://github.com/user-attachments/assets/d32ac750-3139-404b-96e4-757ac84f9a32)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log into the domain controller (DC-1) and use Server Manager to install Active Directory Domain Services (AD DS). Configure a new forest with a domain name, such as mydomain.com. After the installation, restart the server and log in using the newly created domain credentials.
 </p>
 <br />
 
