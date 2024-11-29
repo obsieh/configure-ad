@@ -36,22 +36,33 @@ Step 1: Install and Configure Active Directory
 
 </p>
 <p>
-Log into the domain controller (DC-1) and use Server Manager to install Active Directory Domain Services (AD DS). Configure a new forest with a domain name, such as mydomain.com. After the installation, restart the server and log in using the newly created domain credentials.
+Install Active Directory Domain Services (AD DS) on the domain controller to create and configure a new domain. Restart the server and log in using domain credentials to finalize the setup.
 </p>
 <br />
+Step 2: Create Administrative and Organizational Units
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/7f5bc082-f736-4656-b0bc-a4b3cc56ba47)
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<
+Use Active Directory tools to create Organizational Units (OUs) for grouping users and devices. Add an admin account to manage domain settings and assign appropriate permissions.
+
+
 </p>
 <br />
+Step 3: Join a Client Machine to the Domain
+  
+![image](https://github.com/user-attachments/assets/3cd2db0b-0346-483d-9bb2-c83bfb8e3e71)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Join client computers to the domain by updating DNS settings and verifying their addition in Active Directory. Organize client machines into appropriate OUs for better management.
+  
+Step 4: Enable and Test Remote Desktop
+
+![image](https://github.com/user-attachments/assets/38af091a-1dc8-4900-958f-1b115a300ac5)
+
+Set up Remote Desktop for domain users on client machines. Create user accounts, assign them to the appropriate OUs, and test access to ensure proper connectivity and permissions.
+  
 </p>
 <br />
